@@ -1,8 +1,6 @@
 name: GitHub-Profile-Summary-Cards
 
 on:
-  create:
-  push:
   schedule: # execute every 24 hours
     - cron: "* */24 * * *"
   workflow_dispatch:
@@ -28,10 +26,4 @@ jobs:
           # EXCLUDE is an optional comma seperated list of languages to exclude, defaults to ""
           EXCLUDE: ""
           # AUTO_PUSH is optional, a boolean variable default to true, whether automatically push generated files to desired branch
-          #AUTO_PUSH: true
-        run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add -A .
-          git commit -m "generated"
-          git push
+          AUTO_PUSH: true
