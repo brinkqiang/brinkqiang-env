@@ -17,8 +17,8 @@ jobs:
       - uses: brinkqiang/github-profile-summary-cards@v1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
           USERNAME: ${{ github.repository_owner }}
+        with:
           # BRANCH_NAME is optional, default to main, branch name to push cards
           BRANCH_NAME: "master"
           # UTC_OFFSET is optional, default to zero
