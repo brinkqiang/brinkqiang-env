@@ -1,4 +1,4 @@
-name: GitHub-Profile-Summary-Cards
+name: profile-summary-cards
 
 on:
   schedule: # execute every 24 hours
@@ -31,7 +31,7 @@ jobs:
       - name: Print current time
         run: |
           echo "The current UTC time is: $(date -u)"
-          
+
       - name: Status
         uses: brinkqiang/github-status-action@v2
         with:
