@@ -12,3 +12,11 @@
 [contribution-chart-badge]: https://github.com/brinkqiang/brinkqiang-env/workflows/ontribution-chart/badge.svg "contribution-chart build status"
 [contribution-chart-link]:  https://github.com/brinkqiang/brinkqiang-env/actions/workflows/contribution-chart.yml "contribution-chart build status"
 
+## 注意
+
+contributions 组件输出路径
+```
+https://raw.githubusercontent.com/brinkqiang/brinkqiang-env/output/contributions.svg
+
+https://raw.githubusercontent.com/brinkqiang/brinkqiang-env/output/contributions-all-monthly.svg
+```
