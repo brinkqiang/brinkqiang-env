@@ -1,0 +1,19 @@
+name: update contribution chart
+
+on:
+  schedule:
+    - cron: "3 19 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write   # required to commit the generated SVG
+    steps:
+      - uses: brinkqiang/gcchart@v1
+        with:
+          outputs: |
+            contributions.svg
