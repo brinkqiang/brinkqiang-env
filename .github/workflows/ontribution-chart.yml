@@ -15,3 +15,14 @@ jobs:
           outputs: |
             contributions.svg
             contributions-all-monthly.svg?period=1825&granularity=month
+      - name: Print current time
+        run: |
+          echo "The current UTC time is: $(date -u)"
+
+      - name: Status
+        uses: brinkqiang/github-status-action@v2
+        with:
+          authToken: ${{secrets.GITHUB_TOKEN}}
+          context: 'Set Status'
+          description: 'Passed'
+          state: 'success'            
