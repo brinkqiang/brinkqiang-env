@@ -13,7 +13,7 @@ jobs:
     permissions:
       contents: write   # required to commit the generated SVG
     steps:
-      - uses: brinkqiang/gcchart@Latest
+      - uses: brinkqiang/gcchart@v1
         with:
           outputs: |
             contributions.svg
