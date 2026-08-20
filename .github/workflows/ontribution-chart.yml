@@ -15,3 +15,4 @@ jobs:
         with:
           outputs: |
             contributions.svg
+            contributions-all-monthly.svg?period=1825&granularity=month
