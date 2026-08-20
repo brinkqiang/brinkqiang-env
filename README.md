@@ -9,6 +9,6 @@
 [profile-3d-link]:  https://github.com/brinkqiang/brinkqiang-env/actions/workflows/profile-3d.yml "profile-3d build status"
 [profile-summary-cards-badge]: https://github.com/brinkqiang/brinkqiang-env/workflows/profile-summary-cards/badge.svg "profile-summary-cards build status"
 [profile-summary-cards-link]:  https://github.com/brinkqiang/brinkqiang-env/actions/workflows/profile-summary-cards.yml "profile-summary-cards build status"
-[contribution-chart-badge]: https://github.com/brinkqiang/brinkqiang-env/workflows/contribution-chart/badge.svg "contribution-chart build status"
+[contribution-chart-badge]: https://github.com/brinkqiang/brinkqiang-env/workflows/output/contributions.svg "contribution-chart build status"
 [contribution-chart-link]:  https://github.com/brinkqiang/brinkqiang-env/actions/workflows/contribution-chart.yml "contribution-chart build status"
 
