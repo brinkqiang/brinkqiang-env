@@ -14,13 +14,6 @@
 
 ## 注意
 
-#### ontribution-chart 组件输出路径
-```
-https://raw.githubusercontent.com/brinkqiang/brinkqiang-env/output/contributions.svg
-
-https://raw.githubusercontent.com/brinkqiang/brinkqiang-env/output/contributions-all-monthly.svg
-```
-
 ## 查询
 ```
 https://green-wall.vercel.app/zh?username=brinkqiang
